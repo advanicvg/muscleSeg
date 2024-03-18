@@ -9,7 +9,7 @@ In this project, we create a DNN model for muscles segmentaion using supervised 
 * L3 Vertebral body
 
 ## Prerequirement
-To run the code, one needs to install the following python dependancy first:
+To run the code, one needs to install the following python dependancies first:
 
 * torch>=1.7
 * torchvision
@@ -20,7 +20,7 @@ To run the code, one needs to install the following python dependancy first:
 * tqdm
 
 ## Data Arrangement
-The format of input data are DICOM and its annotations(masks) are saved as .npy files. The training dataset and validation dataset are storeged in forlde ./train and ./valid respectively.
+The format of input data are DICOM and its annotations(masks) are saved as .npy files. The training dataset and validation dataset are stored in forlde ./train and ./valid respectively.
 
 ## How to run the code
 Simply excute the command line script:
