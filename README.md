@@ -15,7 +15,7 @@ To run the code, one needs to install the following python dependancies first:
 * torchvision
 * albumentations==0.5
 * segmentation-models-pytorch
-* Ranger-Deep-Learning-Optimizer
+* [Ranger-Deep-Learning-Optimizer](https://github.com/lessw2020/Ranger-Deep-Learning-Optimizer)
 * opencv-python>=4.5
 * pydicom
 * numpy
