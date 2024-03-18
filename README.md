@@ -22,7 +22,7 @@ To run the code, one needs to install the following python dependancies first:
 * tqdm
 
 ## Data Arrangement
-The format of input data are DICOM and its annotations(masks) are saved as .npy files. The training dataset and validation dataset are stored in forlde ./train and ./valid respectively.
+The format of input data are DICOM and its annotations(masks) are saved as .npy files. The training dataset and validation dataset are stored in forlde `./train` and `./valid` respectively.
 
 ## How to run the code
 Simply excute the command line script:
