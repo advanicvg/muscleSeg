@@ -79,7 +79,6 @@ if __name__ == '__main__':
     # misc
     parser.add_argument('--mode', type=str, default='train')
     parser.add_argument('--model_path', type=str, default='.')
-    # parser.add_argument('--train_valid_path', type=str, default='/home/eric/workspace/003/Image_Segmentation/train/')
     parser.add_argument('--train_path', type=str, default='./train/')
     parser.add_argument('--valid_path', type=str, default='./valid/')
     parser.add_argument('--result_path', type=str, default='./result/')
