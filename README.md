@@ -15,14 +15,10 @@ To run the code, one needs to install the following python dependancies first:
 * torchvision
 * albumentations==0.5
 * segmentation-models-pytorch
-* [Ranger-Deep-Learning-Optimizer](https://github.com/lessw2020/Ranger-Deep-Learning-Optimizer)
 * opencv-python>=4.5
 * pydicom
 * numpy
 * tqdm
-
-## Data Arrangement
-The format of input data are DICOM and its annotations(masks) are saved as .npy files. The training dataset and validation dataset are stored in forlde `./train` and `./valid` respectively.
 
 ## How to run the code
 Simply excute the command line script:
