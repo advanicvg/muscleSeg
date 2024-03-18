@@ -44,10 +44,10 @@ class ImageFolder(data.Dataset):
         self.GT_paths = root[:-1]+'_GT/'
        
         if mode=='train':
-            self.image_paths=glob.glob(root+'/[0-9]*.dcm')+glob.glob(root+'/Su*.dcm')+glob.glob(root+'/I*.dcm')+glob.glob('new_23_train/*.dcm')
+            self.image_paths=glob.glob(root+'/*.dcm')
             np.save('train.list',self.image_paths)
         elif mode=='valid':
-            self.image_paths=glob.glob(root+'/[0-9]*.dcm')+glob.glob(root+'/Su*.dcm')+glob.glob(root+'/I*.dcm')
+            self.image_paths=glob.glob(root+'/*.dcm')
             np.save('valid.list',self.image_paths)
         else:
             self.image_paths=glob.glob(root+'/*.dcm')
