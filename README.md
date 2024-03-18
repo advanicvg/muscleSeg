@@ -13,7 +13,9 @@ To run the code, one needs to install the following python dependancies first:
 
 * torch>=1.7
 * torchvision
-* albumentation==0.5
+* albumentations==0.5
+* segmentation-models-pytorch
+* Ranger-Deep-Learning-Optimizer
 * opencv-python>=4.5
 * pydicom
 * numpy
